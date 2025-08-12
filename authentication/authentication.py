@@ -49,7 +49,7 @@ async def login_json(user: UserLoginSchema, response: Response):
         httponly=True,
         max_age=1000,
         samesite="None",    # Kross-domen uchun
-        domain=".frontend.com" 
+        domain=".vercel.app" 
     )
 
 
