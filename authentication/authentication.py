@@ -47,6 +47,7 @@ async def login_json(user: UserLoginSchema, response: Response):
         key="access_token",
         value=token,
         httponly=True,
+        secure=True, 
         max_age=100000,
         samesite="None",    
         domain=".up.railway.app",
