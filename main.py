@@ -14,7 +14,8 @@ origins = [
     "http://localhost:5173",                  # Local dev
     "http://127.0.0.1:5173",                  # Local dev
     "https://myfrontend.com",                 # Agar frontend serverda bo'lsa
-    "https://myapp.up.railway.app",            # Railway backend
+    "https://myapp.up.railway.app",
+    "https://myportfolios-delta.vercel.app",            # Railway backend
 ]
 
 app.add_middleware(
