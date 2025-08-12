@@ -47,9 +47,10 @@ async def login_json(user: UserLoginSchema, response: Response):
         key="access_token",
         value=token,
         httponly=True,
-        max_age=1000,
-        samesite="None",    # Kross-domen uchun
-        domain=".vercel.app" 
+        max_age=100000,
+        samesite="None",    
+        domain=".up.railway.app",
+         
     )
 
 
